@@ -21,7 +21,7 @@ const CoffeeCard = ({ coffee, coffees, setCoffees }) => {
 
                 console.log('delete conform');
                 // delete single api data from server
-                fetch(`http://localhost:3000/coffee/${_id} `,
+                fetch(`https://coffee-store-server-600ex1t85-mahmud-hasans-projects.vercel.app/coffee/${_id} `,
                     {
                         method: 'DELETE',
                     })

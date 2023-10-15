@@ -65,6 +65,9 @@ const Navbar = () => {
                         <NavLink to="/signIn" className={({ isActive }) => (isActive ? 'border-b-2 border-[#f97316] text-[#f97316] ' : '')}>SignIn</NavLink>
                     </li>
                     <li>
+                        <NavLink to="/addCoffee" className={({ isActive }) => (isActive ? 'border-b-2 border-[#f97316] text-[#f97316] ' : '')}>Add Coffee</NavLink>
+                    </li>
+                    <li>
                         <NavLink to="/users" className={({ isActive }) => (isActive ? 'border-b-2 border-[#f97316] text-[#f97316] ' : '')}>Users</NavLink>
                     </li>
                 </ul>

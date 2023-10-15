@@ -22,7 +22,7 @@ const Users = () => {
 
                 console.log('delete conform');
                 // delete single api data from server
-                fetch(`http://localhost:3000/users/${id} `,
+                fetch(`https://coffee-store-server-600ex1t85-mahmud-hasans-projects.vercel.app/users/${id} `,
                     {
                         method: 'DELETE',
                     })

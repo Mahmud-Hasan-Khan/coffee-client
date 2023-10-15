@@ -18,7 +18,7 @@ const AddCoffee = () => {
         console.log(newCoffee);
 
         // send data to server & post to the API
-        fetch('http://localhost:3000/coffee', {
+        fetch('https://coffee-store-server-600ex1t85-mahmud-hasans-projects.vercel.app/coffee', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
